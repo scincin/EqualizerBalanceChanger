@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8937BA6A1FBEEF8100A88D15 /* Eminem_WithoutMe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8937BA691FBEEF8100A88D15 /* Eminem_WithoutMe.mp3 */; };
 		89632EC81FBDFEC800C69580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89632EC71FBDFEC800C69580 /* AppDelegate.swift */; };
 		89632ECA1FBDFEC800C69580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89632EC91FBDFEC800C69580 /* ViewController.swift */; };
 		89632ECD1FBDFEC800C69580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89632ECB1FBDFEC800C69580 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8937BA691FBEEF8100A88D15 /* Eminem_WithoutMe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Eminem_WithoutMe.mp3; sourceTree = "<group>"; };
 		89632EC41FBDFEC800C69580 /* EqualizerBalance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EqualizerBalance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89632EC71FBDFEC800C69580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89632EC91FBDFEC800C69580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		89632EC61FBDFEC800C69580 /* EqualizerBalance */ = {
 			isa = PBXGroup;
 			children = (
+				89632ED91FBE240000C69580 /* sound */,
 				89632EC71FBDFEC800C69580 /* AppDelegate.swift */,
 				89632EC91FBDFEC800C69580 /* ViewController.swift */,
 				89632ECB1FBDFEC800C69580 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				89632ED31FBDFEC800C69580 /* Info.plist */,
 			);
 			path = EqualizerBalance;
+			sourceTree = "<group>";
+		};
+		89632ED91FBE240000C69580 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				8937BA691FBEEF8100A88D15 /* Eminem_WithoutMe.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				89632ED21FBDFEC800C69580 /* LaunchScreen.storyboard in Resources */,
 				89632ECF1FBDFEC800C69580 /* Assets.xcassets in Resources */,
+				8937BA6A1FBEEF8100A88D15 /* Eminem_WithoutMe.mp3 in Resources */,
 				89632ECD1FBDFEC800C69580 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
