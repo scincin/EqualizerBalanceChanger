@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: popSound!)
             audioPlayer.prepareToPlay()
-            audioPlayer.format
+            
         } catch  {
             print("hi")
         }
